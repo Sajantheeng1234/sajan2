@@ -1,0 +1,141 @@
+body{
+    background-color: bisque;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    text-align: right;
+    padding-top:20px ;
+    
+}
+
+.navbar a{
+    color:rgb(255, 72, 0);
+    background-color: rgb(131, 226, 171);
+    text-decoration: none;
+    text-align: right;
+    border-radius: 3px;
+    font-size: 20px;
+    width: 60px;
+    padding-top: 20px;
+    margin:4px;
+     padding-top:0px;
+     
+
+
+}
+
+.info{
+  text-align: center;
+  padding: 15%;
+  font-size: 20px;
+  color: orangered;
+}
+.info h2{
+  font-weight: bold;
+}
+.info button{
+  font-weight: bold;
+  background-color: bisque;
+  border-radius: 2px;
+  height: 25px;
+  
+}
+.info button:hover{
+  color: orangered;
+  cursor: pointer;
+}
+
+.img{
+    height: 260px;
+    width: 460px;
+    border-radius: 4px; 
+
+    
+}
+ .navbar a:hover{
+    color:white;
+ }
+
+ .Home{
+   display: flex;
+   padding-left:15px;
+ }
+ 
+ .Home p{
+  padding-left:52px;
+  margin-left: 20px;
+ }
+ .contact{
+    flex-direction: column;
+    width:245px;
+    margin-top: 200px ;
+    border:2px solid orangered;
+    height:290px;
+    margin: auto;
+  
+ }
+ .submit:hover{
+            
+    color: orangered;
+
+ }
+  .headding{
+    text-align: center;
+    color: orangered;
+    
+
+ }
+ .form{
+     
+   color: rgb(253, 85, 24);
+   font-size: 20px;
+   text-align:center;   
+ }
+ .contactform{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 200px;
+  margin: auto;
+ }
+
+  .paragraph{
+    border:2px solid orangered;
+    border-radius: 2px;
+    height:195px;
+    width: 500px;
+   
+
+  }
+  .footer{
+     text-align: center;
+     background-color: orangered;
+     border-radius: 3px;
+  }
+  .sajan{
+    color: antiquewhite;
+
+  }
+
+  .footer a{
+    text-decoration: none;
+    color:white;
+  }
+  .footer a:hover{
+    color: black;
+  }
+  @media(max-width:650px){
+    .hamburger{
+      display: flex;
+    }
+  }
+   .hamburger span{
+    height: 3px;
+    width: 25px; 
+   } 
+   .hamburger{
+    display: column;
+    gap: 4px;
+
+   }
