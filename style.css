@@ -11,7 +11,6 @@ body{
 
 .navbar a{
     color:rgb(255, 72, 0);
-    background-color: rgb(131, 226, 171);
     text-decoration: none;
     text-align: right;
     border-radius: 3px;
@@ -20,6 +19,7 @@ body{
     padding-top: 20px;
     margin:4px;
      padding-top:0px;
+     font-weight: bold;
      
 
 
@@ -105,6 +105,7 @@ body{
     border-radius: 2px;
     height:195px;
     width: 500px;
+    margin-top:32px;
    
 
   }
@@ -138,4 +139,44 @@ body{
     display: column;
     gap: 4px;
 
+   }
+   .layout{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+
+   .about{
+    height: 200px;
+    width: 290px;
+    padding-top: 30px;
+    padding-left:65px;
+
+   }
+
+   .div1{
+    margin: 30px;
+
+   }
+
+   .div1 h2{
+    text-align: center;
+    color: orangered;
+   }
+
+   .service{
+    text-align: center;
+    color:rgb(207, 89, 34);
+    font-size: 20px;
+
+
+   }
+   .serviceimg{
+    height: 200px;
+    width: 300px;
+   }
+
+   .service:hover{
+    color:orangered;
+    font-weight: bolder;
    }
