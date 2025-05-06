@@ -17,14 +17,15 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:orangered;
+  background-color:rgb(144, 145, 135);
   padding: 10px 20px;
   color: white;
+  border-radius: 2px;
 }
 
 .navbar .logo {
   font-size: 24px;
-  color: #007bff;
+  color: orangered;
   font-weight: bold;
 }
 
@@ -41,7 +42,7 @@ body{
 }
 
 .nav-links li a:hover {
-  color: #007bff;
+  color: orangered;
 }
 
 /* Hamburger styles */
@@ -98,6 +99,7 @@ body{
 
 .logo{
   float: left;
+  display: flex;
 }
 
 .info{
@@ -120,42 +122,29 @@ body{
   color: orangered;
   cursor: pointer;
 }
+.headding{
+  text-align: center;
+  color: orangered;
+}
+
 
 .img{
     height: 260px;
     width: 460px;
     border-radius: 4px; 
+    display: flex;
 
     
 }
- .navbar a:hover{
-    color:white;
- }
 
  .Home{
    display: flex;
    padding-left:15px;
  }
  
- .Home p{
-  padding-left:52px;
-  margin-left: 20px;
- }
-  .headding{
-    text-align: center;
-    color: orangered;
-    
 
- }
-
-  .paragraph{
-    border:2px solid orangered;
-    border-radius: 2px;
-    height:225px;
-    width: 500px;
-    margin-top:22px;
-   
-
+  #para{
+    display: flex;
   }
    .layout{
     display: flex;
@@ -182,7 +171,7 @@ body{
     color: orangered;
    }
 
-   .service{
+   /* .service{
     text-align: center;
     color:rgb(207, 89, 34);
     font-size: 20px;
@@ -197,18 +186,17 @@ body{
    .service:hover{
     color:orangered;
     font-weight: bolder;
-   }
+   } */
    .contact{
     flex-direction: column;
     width:245px;
-    margin-top: 200px ;
     border:2px solid orangered;
-    height:290px;
+    height:250px;
+    display: flex;
     margin: auto;
   
  }
  .submit:hover{
-            
     color: orangered;
 
  }
