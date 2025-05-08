@@ -127,25 +127,31 @@ body{
   color: orangered;
 }
 
+.home{
+
+  border: 2px solid black;
+  border-radius: 2px;
+}
 
 .img{
     height: 260px;
     width: 460px;
     border-radius: 4px; 
     display: flex;
+    margin: auto;
 
     
 }
 
- .Home{
-   display: flex;
-   padding-left:15px;
- }
- 
-
-  #para{
+   .home-text{
     display: flex;
-  }
+    border: 2px solid black;
+    height:220px;
+    width:300px;
+    margin: auto;
+    margin-top: 20px;
+   }
+  
    .layout{
     display: flex;
     justify-content: center;
